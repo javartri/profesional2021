@@ -1,0 +1,69 @@
+.padre {
+    border: 2px solid;
+    height: 800px;
+    display: flex;
+    /* hace mis elementos en columna; */
+    /* flex-direction: column; */
+    /* acomoda los elementos en el eje x */
+    justify-content: space-around;
+    /* acomoda los elementos en el eje y */
+    align-items: center;
+}
+
+.hijo1 {
+    border: 2px solid;
+    width: 30%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hijo2 {
+    border: 2px solid;
+    width: 30%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.subhijo1, .subhijo2, .hijo1subhijo1, .hijo2subhijo1, .hijo31subhijo1, .hijo1subhijo2, .hijo2subhijo2, .hijo3subhijo2 {
+    border: 2px solid blue;
+}
+
+.vertical {
+    border: 2px solid;
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.horizontal {
+    border: 2px solid;
+    width: 20%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hijo1subhijo1, .hijo31subhijo1, .hijo2subhijo2 {
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hijo2subhijo1, .hijo1subhijo2, .hijo3subhijo2 {
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+

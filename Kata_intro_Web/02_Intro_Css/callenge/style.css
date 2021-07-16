@@ -1,0 +1,30 @@
+.seccion {
+    margin-left: 76%;
+}
+
+#img {
+    /* width: 0%; */
+}
+
+#inicio {
+    /* background-color: #477dce; */
+    color: white;
+}
+
+a {
+    padding: 10px 10px 10px 10px;
+}
+
+.centro {
+    margin: 130px 0px 0px 0px;
+       
+}
+
+.redondeado {
+    border-radius: 5px;
+}
+
+h3 {
+    margin-top: 100px;
+    display: inline-block;
+}

@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* align-content: center;  */
+}
+
+.izquierda, .derecha {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    width: 30vw;
+    height: 40vh;
+}
+
+.logo {
+    width: 50vw;
+    height: 20vh;
+}
+
+.subtitulo {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    color: #1c1e21;
+    font-size: 28px;
+}
+
+.subtitulo2 {
+    color: #606770;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+
+.foto {
+    width: 20%;
+    height: 40%;
+}
+
+.nombre_izq {
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+}

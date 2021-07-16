@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo {
+    border: solid 3px;
+    width: 50%;
+    height: 70%;
+    display: flex;
+}
+
+.izq {
+    background-color: #0d0d58;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+}
+
+.der {
+    background-color: #0d0d58;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.arriba1 {
+    /* border: solid 1px yellow; */
+    width: 90%;
+    height: 40%;
+    background: white;
+}
+
+.abajo1 {
+    /* border: solid 1px pink; */
+    width: 90%;
+    height: 40%;
+    display: flex;
+    align-items: flex-end;
+    background: white;
+}
+
+.arriba2 {
+    /* border: solid 1px yellow; */
+    width: 90%;
+    height: 40%;
+    display: flex;
+    justify-content: flex-end;
+    background: white;
+}
+
+.abajo2  {
+    /* border: solid 1px pink; */
+    width: 90%;
+    height: 40%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background: white;
+}
+
+
+.rojo1 {
+    /* border: solid 1px rgb(78, 17, 27); */
+    width: 90%;
+    height: 90%;
+    background: red;
+}
+
+.rojo2 {
+    /* border: solid 1px rgb(78, 17, 27); */
+    width: 95%;
+    height: 90%;
+    background: red;
+}
